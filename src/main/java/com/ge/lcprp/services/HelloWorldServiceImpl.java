@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * Created by Mark on 5/21/2016.
  */
 @Component
-@Profile("english")
+@Profile("default")
 public class HelloWorldServiceImpl implements HelloWorldService {
     @Override
     public String getGreeting() {
